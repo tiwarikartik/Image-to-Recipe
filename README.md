@@ -1,23 +1,31 @@
 # 🍲 Image to Recipe Generator
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.35-FF4B4B?style=for-the-badge&logo=streamlit)](https://streamlit.io)
+[![Streamlit App](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit)](https://image-to-recipe-generator.streamlit.app/)
 [![LangChain](https://img.shields.io/badge/LangChain-0.2-orange?style=for-the-badge)](https://www.langchain.com/)
 [![Google Gemini](https://img.shields.io/badge/Google-Gemini-4285F4?style=for-the-badge&logo=google)](https://ai.google/gemini/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 An intelligent web application that transforms a picture of your kitchen ingredients into a complete, ready-to-cook recipe. Don't know what to make for dinner? Just snap a photo, and let AI be your chef!
 
+---
+
+**[➡️ View the Live Demo Here!](https://image-to-recipe-generator.streamlit.app/)**
+
+---
+
+## 🎥 App Demo
+
+[![Watch the Video](https://img.youtube.com/vi/fVqFvSXqjlc/maxresdefault.jpg)](https://www.youtube.com/watch?v=fVqFvSXqjlc)
+
 ## ✨ Features
 
-- **Ingredient Detection**: Upload an image, and the app uses the **Google Gemini 2.5 Flash** model to identify all edible ingredients.
+- **Ingredient Detection**: Upload an image, and the app uses the **Google Gemini Pro Vision** model to identify all edible ingredients.
 - **AI-Powered Recipe Generation**: Based on the detected ingredients, the app uses **LangChain** and **Gemini Pro** to generate a structured recipe in JSON format.
 - **Interactive & Organized UI**: A clean, user-friendly interface built with **Streamlit**, featuring:
   - A responsive sidebar for image uploads.
   - At-a-glance recipe metrics (difficulty, time, category).
   - Collapsible expanders for ingredients, tools, instructions, and macros.
-
-[![Watch the Video](https://img.youtube.com/vi/fVqFvSXqjlc/maxresdefault.jpg)](https://www.youtube.com/watch?v=fVqFvSXqjlc)
 
 ## 🛠️ Tech Stack
 
